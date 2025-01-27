@@ -9,7 +9,7 @@ function PostsList() {
   return (
     <div className="container my-5">
       <h1>POST LIST</h1>
-      <button className="btn btn-warning" onClick={fetchPosts}>Show List</button>
+      <button className="btn btn-warning mb-3" onClick={fetchPosts}>Show List</button>
 
       <div className="row">
         {posts.map((post)=>(

@@ -18,9 +18,9 @@ const PostsProvider = ({children}) => {
     })
   }
 
-  useEffect(()=>{
-    fetchPosts()
-  },[]);
+  // useEffect(()=>{
+  //   fetchPosts()
+  // },[]);
 
   return(
     <PostsContext.Provider value={{posts, postApiUrl, fetchPosts}}>

@@ -1,4 +1,6 @@
-import PostCard from "./PostCard"
+import PostCard from "./PostCard";
+import { useContext } from "react";
+import { PostsContext } from "../context/PostsContext";
 
 function PostsList() {
   return (
